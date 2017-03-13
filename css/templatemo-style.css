@@ -113,7 +113,7 @@ button:focus { outline: none; }
 	max-width: none;
 	width: 100%;
 }
-.tm-textbox-1-col { max-width: 600px; }
+.tm-textbox-1-col { max-width: 800px; }
 
 .cd-hero-slider .tm-text { 
 	font-size: 1em;
@@ -121,12 +121,12 @@ button:focus { outline: none; }
 }
 
 .tm-2-col-container {		
-	max-width: 860px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .tm-2-col-textbox { 
-	max-width: 600px; 
+	max-width: 700px;
 	-webkit-flex: 0 1 auto; 
 	    -ms-flex: 0 1 auto; 
 	        flex: 0 1 auto; /* Fix flexbox in IE 10 bug https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/ */
