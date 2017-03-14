@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Topic model(LDA)</title>
+     <link rel="stylesheet" href="css/templatemo-style.css">
+</head>
+<body>
+<h2 class="tm-text-title">RNNG</h2>
+
+<img src="img/rnng.png" style="width: 800px"> <br>
+<div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox">
+    <p class="tm-text">
+        Figure above shows our initial idea of adding a memory component to RNNG, and we also tried some variations.
+        The main idea behind this design is to expect memory to cover the 'outliers' of neural model, so memory
+        memorizes 'wrong instances' of rnng. This idea based on that the 'outliers' also have a rule, or is common in
+        some way, so memory can learn. But experiments showed the RNNG model did quite well on PTB data, and left little
+        room for improvement. Most of memorized wrong instances are like noise and hard to learn a rule from, and
+        bring an inevitably adverse effect to neural model. And I also tried to carefully select instances to memorize,
+        but it's hard and trival. We couldn't find a good way to solve this problm, so this work was halted by the end of
+        2016.
+    </p>
+
+    <p class="tm-text">
+        Reality bites, but, at least, I gained a lot of experience from this process. I wrote a
+        <a href="http://cslt.riit.tsinghua.edu.cn/mediawiki/images/2/2b/RNNG_Code_Use_Guide_simplified.pdf"> chinese user guide of RNNG </a>.
+        And I got familiar with parsing task and <a href="https://github.com/clab/dynet">Dynet</a>.
+    </p>
+
+</div>
+
+
+</body>
+</html>
