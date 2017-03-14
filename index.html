@@ -120,9 +120,14 @@
 
                                 <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox"
                                      style="width: 600px; height: 400px;">
-                                    <h2 class="tm-text-title">Machine Translation</h2>
-                                    <p class="tm-text"></p>
-                                    <p class="tm-text"></p>
+                                    <h2 class="tm-text-title">Neural Machine Translation</h2>
+                                    <p class="tm-text">
+                                        Neural machine translation is what I'm doing recently. There are many state-of-art works in this area, but translation is still a
+                                        challenging task.  One particular problem is NMT is good at memorizing translation pairs that are often observed, and can make use
+                                        of them well at run-time, but for low-frequency pairs, the system may ‘forget’ to
+                                        use them when they should. So, our approach is a Memory-augmented NMT. Memory memorizes
+                                        (source word - target word) pairs, which is supposed to take advantage of both SMT and NMT. See more info <a href="NMT.html">here</a>.
+                                    </p>
                                 </div>
 
                                 <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox"
@@ -132,7 +137,7 @@
                                         <a href="https://arxiv.org/pdf/1602.07776.pdf">RNNG</a> is Chris Dyer's paper in 2016, a transition-based parsing model
                                         and its generative model can be seen as a language model. I have done some experiments based on this work since Oct. 2016.
                                         Our basic idea is to add a memory component to original structure, which memorizes wrong instances of RNNG and is supposed to work as
-                                        a complement. But, our idea didn't work well and this work was halted by the end of 2016. See more info <a>here</a>.
+                                        a complement. But, our idea didn't work well and this work was halted by the end of 2016. See more info <a href="rnng.html">here</a>.
                                     </p>
                                 </div>
 
@@ -148,10 +153,7 @@
                                      style="width: 600px; height: 400px;">
                                     <h2 class="tm-text-title">Wikipedia</h2>
                                     <p class="tm-text">
-                                        Research on Wikipedia includes article quality assessment, user reputation evaluation, collaboration patterns, and so on.
-                                    </p>
-                                    <p class="tm-text">
-                                        I'm working on a project in BUPT. The main goal of this project is building up a wikipedia article quality assessment system, which is supposed
+                                        This is a project I'm doing in BUPT. The main goal of this project is building up a wikipedia article quality assessment system, which is supposed
                                         to be better than or comparative to previous method and released as a online service. I have tried feature engineering combined linear regression model
                                         that got good performance. And I'm trying to introduce neural model to wikipedia article quality assessment. See more info <a href="wiki.html">here</a>.
                                     </p>
@@ -163,11 +165,8 @@
                                     <p class="tm-text">
                                         LDA(Latent Dirichlet Allocation) is a classic topic model, proposed by David M. Blei, AndrewY. Ng, Michael I. Jordan in 2003,
                                         and has been widely used during past several years. I was quite interested in this model, so I carefully reviewed its derivation process
-                                        , Gibbs sampling and implemented a <a href="https://github.com/ZhangShiyue/LDA">LDA by python </a>.
-                                    </p>
-                                    <p class="tm-text">
-                                        When I worked as an intern at YOKA.com, I participated in designing a Personalized News Recommendation system and independently
-                                        implemented a 'LDA module'. See more details <a href="lda.html">here</a>.
+                                        , Gibbs sampling and implemented a <a href="https://github.com/ZhangShiyue/LDA">LDA by python </a>. When I worked as an intern at YOKA.com, I participated in designing a Personalized News Recommendation system and independently
+                                        implemented a 'LDA module'. See more info <a href="lda.html">here</a>.
                                     </p>
                                 </div>
 
@@ -195,7 +194,8 @@
 
                                 <h2 class="tm-section-title">Contact Me</h2>
                                 <h2 class="tm-section-title">byryuer at gmail com</h2>
-                                <h2 class="tm-section-title">ZhangShiyue@github</h2>
+                                <h2 class="tm-section-title"><a href="https://github.com/ZhangShiyue" style="color: white;text-decoration:underline;">
+                                    github.com/ZhangShiyue</a></h2>
 
                             </div>
 
