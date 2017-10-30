@@ -188,7 +188,9 @@
 <hr>
 <a name="publications" class="disabled"><h2> Publications </h2></a>
 <select id="select-year" onchange="selYear()">
+    <option value="all">all</option>
     <option value="2017">2017</option>
+    <option value="2018">2018</option>
 </select>
 
 <div id="publications">
@@ -218,24 +220,26 @@
             time: '2017'
         },
         {
-            url: '',
-            title: 'History-based Article Quality Assessment on Wikipedia',
-            authers: ['Shiyue Zhang', 'Zheng Hu', 'Chunhong Zhang'],
-            pub: 'Bigcomp ',
-            time: '2018'
-        },
-        {
             url: 'https://arxiv.org/abs/1705.03773',
             title: 'Flexible and Creative Chinese Poetry Generation Using Neural Memory',
             authers: ['Jiyuan Zhang', 'Yang Feng', 'Dong Wang', 'Yang Wang', 'Andrew Abel', 'Shiyue Zhang', 'Andi Zhang'],
             pub: 'ACL ',
             time: '2017'
+        },
+        {
+            url: '',
+            title: 'History-based Article Quality Assessment on Wikipedia',
+            authers: ['Shiyue Zhang', 'Zheng Hu', 'Chunhong Zhang'],
+            pub: 'Bigcomp ',
+            time: '2018'
         }
     ];
     var filter = function (year) {
         var final = [];
         for (var i = 0; i < publications.length; i++) {
             if (publications[i].time == year) {
+                final.push(publications[i]);
+            }else if(year == 'all'){
                 final.push(publications[i]);
             }
         }
@@ -274,8 +278,8 @@
         initPub(year);
     };
     window.onload = function () {
-        var year = new Date().getFullYear();
-        initPub(year);
+//        var year = new Date().getFullYear();
+        initPub("all");
     };
 
 </script>
