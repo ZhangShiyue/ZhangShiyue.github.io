@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #003399;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #CC0000;
+    }
+
+    .musicbg {
+        background: darkorchid;
+        position: fixed;
+        right: 35px;
+    }
+</style>
+
+
+<script type='text/javascript'>
+    window.onload = function () {
+        document.getElementById('trick').innerHTML = decode('205-121-233-64-203-206-64-225-231-166-215-212-201-202-166-64');
+    }
+
+    function random(s, N) {
+        var x = Math.sin(s) * 10000;
+        var r = x - Math.floor(x);
+        return Math.floor(r * N);
+    }
+
+    function swap(arr, i, j) {
+        if (i == j)
+            return;
+        arr[i] ^= arr[j];
+        arr[j] ^= arr[i];
+        arr[i] ^= arr[j];
+    }
+
+    function getRndArr(N, seed) {
+        var arr = new Array(N);
+        var i, s;
+        for (i = 0; i < N; i++)
+            arr[i] = i;
+        for (s = seed, i = 0; i < N - 1; i++, s += 3) {
+            L = N - i;
+            ind = random(s, L);
+            swap(arr, ind, L - 1);
+        }
+        return arr;
+    }
+
+    function trans(text) {
+        arr = getRndArr(text.length, 7);
+        var outtxt = '';
+        for (var i = 0; i < text.length; i++)
+            outtxt += text[arr[i]];
+        return outtxt;
+    }
+
+    function transback(text) {
+        arr = getRndArr(text.length, 7)
+        var out = new Array(text.length);
+        for (var i = 0; i < text.length; i++)
+            out[arr[i]] = text[i];
+        return out.join('');
+    }
+
+    function num2strbase(num, base) {
+        if (num == 0)
+            return '0';
+        var digits = new Array();
+        for (; num > 0; num = parseInt(num / base))
+            digits.push(num % base);
+        digits.reverse();
+        return digits.join('');
+    }
+
+    function str2numbase(str, base) {
+        var sum = 0;
+        for (var i = 0; i < str.length; i++)
+            sum = sum * base + (str[i].charCodeAt() - '0'.charCodeAt());
+        return sum;
+    }
+
+    function alpha2code(str, base) {
+        var codes = new Array();
+        for (var i = 0; i < str.length; i++)
+            codes.push(num2strbase(str[i].charCodeAt(), base));
+        return codes.join('-');
+    }
+
+    function code2alpha(code, base) {
+        var codes = code.split('-');
+        str = '';
+        for (var i = 0; i < codes.length; i++)
+            str += String.fromCharCode(str2numbase(codes[i], base));
+        return str;
+    }
+
+    function decode(code) {
+        alpha = code2alpha(code, 7);
+        return transback(alpha);
+    }
+
+    function encode(str) {
+        tmp = trans(str);
+        return alpha2code(tmp, 7);
+    }
+
+    function copy(dest, source) {
+        if (dest.source == source) {
+            dest.innerHTML = "";
+            dest.source = null;
+        }
+        else {
+            dest.innerHTML = source.innerHTML;
+            dest.source = source;
+        }
+        dest.blur();
+    }
+
+
+</script>
+<head>
+    <title>Shiyue Zhang's Homepage</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="index,follow">
+</head>
+
+<body>
+<!autoplay="autoplay">
+
+<table cellpadding="20" style="font-size: 18px">
+    <tr>
+        <td><a href="img/unc office.jpg"><img src='img/unc office.jpg' alt="Shiyue Zhang" width="370" height="220"></a></td>
+        <td>
+            <h1> 张诗悦 </h1>
+            <p><font size="+2"><b>Shiyue Zhang</b></font></p>
+            <p><font size="+1"><b><a href="http://nlp.cs.unc.edu/index.html">UNC NLP Group</a></b> <br>
+                <br>
+                <br>
+                <b>Email</b>: </font> shiyue@cs.unc.edu, byryuer@gmail.com <br>
+                <a href="files/CV.pdf">[CV]</a>
+                <a href="#research">[Research Interest]</a> <a href="#education">[Education]</a> <a href="#publications">[Publications]</a>
+                <a href="#code">[Code]</a> <a href="#software">[Software]</a>
+                <a href="#academic activities">[Academic Activities]</a> <a href="#myself">[Myself]</a> <br>
+            </p>
+        </td>
+    </tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<p>
+    I'm a second-year Ph.D. student at The University of North Carolina at Chapel Hill, advised by <a href="http://www.cs.unc.edu/~mbansal/">Prof. Mohit Bansal</a>. <br>
+    Before joining UNC-CH, I got the Master and Bachelor degrees from Beijing University of Posts and Telecommunications, and I also worked closely with <a href="http://166.111.134.19:8081/wangd/">Prof. Dong Wang</a> at Tsinghua University. <br>
+</p>
+
+<hr>
+<a name="research" class="disabled"><h2> Research Interest </h2></a>
+<ul>
+    <li>I have a broad interest in Natural Language Processing and Machine Learning. Now I'm working on Machine Reading Comprehension.</li>
+</ul>
+
+<hr>
+<a name="education" class="disabled"><h2> Education </h2></a>
+<ul>
+    <li> 2018.9 - Present: Ph.D. Student, The University of North Carolina at Chapel Hill, US</li>
+    <li> 2015.9 - 2018.3: received an M.E. Degree, Beijing University of Posts and Telecommunications, China</li>
+    <li> 2011.9 - 2015.7: received a B.E. Degree, Beijing University of Posts and Telecommunications, China</li>
+</ul>
+
+<hr>
+<a name="publications" class="disabled"><h2> Publications </h2></a>
+<select id="select-year" onchange="selYear()">
+    <option value="all">all</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+</select>
+
+<div id="publications">
+
+</div>
+<script>
+    var publications = [
+	{
+            url: '',
+            title: 'Addressing Semantic Drift in Question Generation for Semi-Supervised Question Answering',
+            authers: ['Shiyue Zhang', 'Mohit Bansal'],
+            pub: 'EMNLP ',
+            time: '2019'
+        },
+        {
+            url: '',
+            title: 'VV-Couplet: An open source Chinese couplet generation system',
+            authers: ['Jiyuan Zhang', 'Zheling Zhang', 'Shiyue Zhang', 'Dong Wang'],
+            pub: 'APSIPA ASC ',
+            time: '2018'
+        },
+        {
+            url: 'https://arxiv.org/abs/1711.04329',
+            title: 'Medical Diagnosis From Laboratory Tests by Combining Generative and Discriminative Learning',
+            authers: ['Shiyue Zhang', 'Pengtao Xie', 'Dong Wang', 'Eric P. Xing'],
+            pub: 'arXiv ',
+            time: '2017'
+        },
+	    {
+            url: 'https://arxiv.org/abs/1708.02005',
+            title: 'Memory-augmented Neural Machine Translation',
+            authers: ['Yang Feng', 'Shiyue Zhang', 'Andi Zhang', 'Dong Wang', 'Andrew Abel'],
+            pub: 'EMNLP ',
+            time: '2017'
+        },	
+	    {
+            url: 'https://arxiv.org/abs/1706.08683',
+            title: 'Memory-augmented Chinese-Uyghur Neural Machine Translation',
+            authers: ['Shiyue Zhang', 'Gulnigar Mahmut', 'Dong Wang', 'Askar Hamdulla'],
+            pub: 'APSIPA ASC ',
+            time: '2017'
+        },
+	    {
+            url: 'http://wangd.cslt.org/public/pdf/NMT_learn_from_draft_v2.pdf',
+            title: 'Enhanced Neural Machine Translation by Learning from Draft',
+            authers: ['Aodong Li', 'Shiyue Zhang', 'Dong Wang', 'Thomas Fang Zheng'],
+            pub: 'APSIPA ASC ',
+            time: '2017'
+        },
+        {
+            url: 'https://arxiv.org/abs/1705.03773',
+            title: 'Flexible and Creative Chinese Poetry Generation Using Neural Memory',
+            authers: ['Jiyuan Zhang', 'Yang Feng', 'Dong Wang', 'Yang Wang', 'Andrew Abel', 'Shiyue Zhang', 'Andi Zhang'],
+            pub: 'ACL ',
+            time: '2017'
+        },
+        {
+            url: 'https://arxiv.org/abs/1609.08789',
+            title: 'Memory Visualization for Gated Recurrent Neural Networks in Speech Recognition',
+            authers: ['Zhiyuan Tang', 'Ying Shi', 'Dong Wang', 'Yang Feng', 'Shiyue Zhang'],
+            pub: 'ICASSP ',
+            time: '2017'
+        },
+        {
+            url: 'http://166.111.134.19:8081/wangd/public/pdf/oc17-m2asr.pdf',
+            title: 'M2ASR: Ambitions and First year Progress',
+            authers: ['Dong Wang', 'Thomas Zheng', 'Zhiyuan Tang', 'Ying Shi', 'Lantian Li', 'Shiyue Zhang', 'Hongzhi Yu',
+                'Guanyu Li', 'Shipeng Xu', 'Askar Hamdulla', 'Mijit Ablimit', 'Gulnigar Mahmut'],
+            pub: 'O-COCOSDA ',
+            time: '2017'
+        }
+    ];
+    var filter = function (year) {
+        var final = [];
+        for (var i = 0; i < publications.length; i++) {
+            if (publications[i].time == year) {
+                final.push(publications[i]);
+            }else if(year == 'all'){
+                final.push(publications[i]);
+            }
+        }
+        return final;
+    };
+    var outputHtml = function (publicationsArr) {
+        var html = [];
+        for (var i = 0; i < publicationsArr.length; i++) {
+            html.push('<ul><li><b><a href="' + publicationsArr[i].url + '" target="_blank">' + publicationsArr[i].title + '</a></b>');
+            html.push('<br>');
+            var auther = [];
+            for (var j = 0; j < publicationsArr[i].authers.length; j++) {
+                if (publicationsArr[i].authers[j] == 'Shiyue Zhang') {
+                    auther.push('<b>Shiyue Zhang</b>');
+		        } else if (publicationsArr[i].authers[j] == 'Shiyue Zhang*') {
+		           auther.push('<b>Shiyue Zhang*</b>');
+                } else {
+                    auther.push(publicationsArr[i].authers[j]);
+                }
+            }
+            html.push(auther.join(', '));
+            html.push('.</li>');
+            html.push(publicationsArr[i].pub + publicationsArr[i].time);
+            html.push('</ul>');
+        }
+        var container = document.getElementById('publications');
+        container.innerHTML = html.join('');
+    };
+    var initPub = function (year) {
+        var publicationsArr = filter(year);
+        outputHtml(publicationsArr);
+    };
+    var selYear = function () {
+        var selector = document.getElementById('select-year');
+        var year = selector.value;
+        initPub(year);
+    };
+    window.onload = function () {
+        initPub("all");
+    };
+
+</script>
+
+
+
+<hr>
+<a name="code" class="disabled"><h2> Code </h2></a>
+
+<ul>
+    <li><b><a href="https://github.com/CSLT-THU/ViVi_Translation">ViVi_Translation: Source code for Memory-augmented NMT on Chinese-Uyghur</a></b><br>
+    <li><b><a href="https://github.com/CSLT-THU/CSLT_NMT">ViVi_NMT: An Open Source Toolkit for Neural Machine Translation</a></b><br>
+</ul>
+
+<hr>
+<a name="software" class="disabled"><h2> Software </h2></a>
+
+<ul>
+    <li>A wechat miniprogram: 薇你写诗, based on an AI poet: 薇薇. @copyright from <a href="http://cslt.riit.tsinghua.edu.cn/">CSLT, THU</a>.<br>
+    She will write a Chinese poem for you based on your name, age and gender.<br>
+    Scan the QR code below to have a try:<br>
+    </li>
+    <a href="img/vivi.jpg"><img src='img/vivi.jpg' width="150" height="150"></a>
+
+</ul>
+
+<hr>
+<a name="academic activities" class="disabled"><h2> Academic Activities </h2></a>
+
+<a name="news" class="disabled"><h3> News </h3></a>
+<ul>
+    <li>Joined UNC-CH as a new Ph.D. student, 2018.08.16</li>
+    <li>Offered by CS Ph.D. at UNC-CH, 2018.02.16 </li>
+    <li>Offered by CS Ph.D. at UMD, 2018.02.06 </li>
+    <li>Offered by CS Ph.D. at UMass Amherst, 2018.01.24 </li>
+</ul>
+
+<a name="talks" class="disabled"><h3> Talks </h3></a>
+
+<ul>
+    <li><b><a href="files/Memory-augmented Neural Machine Translation.pptx"> Presenting paper: Memory-augmented Chinese-Uyghur Neural Machine Translation </a></b>, APSIPA 2017, Kuala Lumpur, Malaysia</li>
+    <li><b>Presenting paper: Flexible and Creative Chinese Poetry Generation Using Neural Memory</b>, ACL 2017, Vancouver, Canada</li>
+</ul>
+
+
+<a name="awards" class="disabled"><h3> Awards </h3></a>
+
+<ul>
+    <li><b>Excellent Graduate of Beijing University of Posts and Telecommunications, 2015</b></li>
+    <li><b>National Scholarship, 2014</b></li>
+    <li><b>National Scholarship, 2013</b></li>
+</ul>
+
+
+<a name="others" class="disabled"><h3> Others </h3></a>
+
+<b> I have been serving as</b> :
+
+<ul>
+    <li>reviewer of APSIPA ASC 2017.</li>
+    <li>reviewer of NCMMSC 2017.</li>
+</ul>
+
+<hr>
+<a name="myself" class="disabled"><h2> Myself </h2></a>
+<ul>
+    <li>
+        I like singing. And I'm a big fan of <a href="https://en.wikipedia.org/wiki/Hua_Chenyu">Chenyu Hua</a>, a singer in China.
+    </li>
+    <li> My Hometown: <a href="https://en.wikipedia.org/wiki/Zhumadian" target="_blank">Zhumadian</a>, <a
+            href="https://en.wikipedia.org/wiki/Henan" target="_blank">Henan</a>, <a
+            href="https://en.wikipedia.org/wiki/China" target="_blank">China</a>
+    </li>
+</ul>
+
+
+last updated: 2019/08/15
+
+<ul>
+    <a href="https://info.flagcounter.com/3P4w"><img src="https://s11.flagcounter.com/count2/3P4w/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+</ul>
+
+<script>
+
+</script>
+</body>
+</html>
+
