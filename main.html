@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -142,17 +143,17 @@
 
 <table cellpadding="20" style="font-size: 18px">
     <tr>
-        <td><a href="img/unc office.jpg"><img src='img/unc office.jpg' alt="Shiyue Zhang" width="370" height="220"></a></td>
+        <td><a href="img/shiyueathome.jpeg"><img src='img/shiyueathome.jpeg' alt="Shiyue Zhang" width="368" height="218"></a></td>
         <td>
             <h1> 张诗悦 </h1>
             <p><font size="+2"><b>Shiyue Zhang</b></font></p>
-            <p><font size="+1"><b><a href="http://nlp.cs.unc.edu/index.html">UNC NLP Group</a></b> <br>
+            <p><font size="+1"><b><a href="https://murgelab.cs.unc.edu/">MURGe-Lab</a>, <a href="https://nlp.cs.unc.edu/">UNC NLP</a></b> <br>
                 <br>
                 <br>
                 <b>Email</b>: </font> shiyue@cs.unc.edu, byryuer@gmail.com <br>
-                <a href="files/CV.pdf">[CV]</a>
+                <a href="files/Shiyue_Zhang_CV.pdf">[CV]</a>
                 <a href="#research">[Research Interest]</a> <a href="#education">[Education]</a> <a href="#publications">[Publications]</a>
-                <a href="#code">[Code]</a> <a href="#software">[Software]</a>
+                <a href="https://github.com/ZhangShiyue">[Github]</a>
                 <a href="#academic activities">[Academic Activities]</a> <a href="#myself">[Myself]</a> <br>
             </p>
         </td>
@@ -164,14 +165,18 @@
 </table>
 
 <p>
-    I'm a second-year Ph.D. student at The University of North Carolina at Chapel Hill, advised by <a href="http://www.cs.unc.edu/~mbansal/">Prof. Mohit Bansal</a>. <br>
-    Before joining UNC-CH, I got the Master and Bachelor degrees from Beijing University of Posts and Telecommunications, and I also worked closely with <a href="http://166.111.134.19:8081/wangd/">Prof. Dong Wang</a> at Tsinghua University. <br>
+    I'm a 3rd-year Ph.D. student at The University of North Carolina at Chapel Hill, advised by <a href="http://www.cs.unc.edu/~mbansal/">Prof. Mohit Bansal</a>. <br>
+    Before joining UNC-CH, I got the Master and Bachelor degrees from Beijing University of Posts and Telecommunications (BUPT). <br>
+    I also worked closely with <a href="http://166.111.134.19:8081/wangd/">Prof. Dong Wang</a> at Tsinghua University. <br>
+    This summer (2020), I worked as a Research Intern at MSR, mentored by <a href="http://asli.us/">Asli Celikyilmaz<a>.
 </p>
 
 <hr>
 <a name="research" class="disabled"><h2> Research Interest </h2></a>
 <ul>
-    <li>I have a broad interest in Natural Language Processing and Machine Learning. Now I'm working on Machine Reading Comprehension.</li>
+    <li>I have a broad interest in Natural Language Processing and Machine Learning. </li>
+    <li>My primary research goal is to achieve faithful Natural Language Understanding. </li>
+    <li>Now I'm working on Abstractive Summarization, Question Answering, Unsupervised Syntax Induction, and Data/Model for Cherokee.</li>
 </ul>
 
 <hr>
@@ -189,6 +194,7 @@
     <option value="2017">2017</option>
     <option value="2018">2018</option>
     <option value="2019">2019</option>
+    <option value="2020">2020</option>
 </select>
 
 <div id="publications">
@@ -196,8 +202,22 @@
 </div>
 <script>
     var publications = [
-	{
+        {
             url: '',
+            title: 'ChrEn: Cherokee-English Machine Translation for Endangered Language Revitalization',
+            authers: ['Shiyue Zhang', 'Benjamin Frey', 'Mohit Bansal'],
+            pub: 'EMNLP ',
+            time: '2020'
+        },
+        {
+            url: '',
+            title: 'Leakage-Adjusted Simulatability: Can Models Generate Non-Trivial Explanations of Their Behavior in Natural Language?',
+            authers: ['Peter Hase', 'Shiyue Zhang', 'Harry Xie', 'Mohit Bansal'],
+            pub: 'Findings of EMNLP ',
+            time: '2020'
+        },
+	    {
+            url: 'https://arxiv.org/abs/1909.06356',
             title: 'Addressing Semantic Drift in Question Generation for Semi-Supervised Question Answering',
             authers: ['Shiyue Zhang', 'Mohit Bansal'],
             pub: 'EMNLP ',
@@ -223,7 +243,7 @@
             authers: ['Yang Feng', 'Shiyue Zhang', 'Andi Zhang', 'Dong Wang', 'Andrew Abel'],
             pub: 'EMNLP ',
             time: '2017'
-        },	
+        },
 	    {
             url: 'https://arxiv.org/abs/1706.08683',
             title: 'Memory-augmented Chinese-Uyghur Neural Machine Translation',
@@ -310,45 +330,8 @@
 
 </script>
 
-
-
-<hr>
-<a name="code" class="disabled"><h2> Code </h2></a>
-
-<ul>
-    <li><b><a href="https://github.com/CSLT-THU/ViVi_Translation">ViVi_Translation: Source code for Memory-augmented NMT on Chinese-Uyghur</a></b><br>
-    <li><b><a href="https://github.com/CSLT-THU/CSLT_NMT">ViVi_NMT: An Open Source Toolkit for Neural Machine Translation</a></b><br>
-</ul>
-
-<hr>
-<a name="software" class="disabled"><h2> Software </h2></a>
-
-<ul>
-    <li>A wechat miniprogram: 薇你写诗, based on an AI poet: 薇薇. @copyright from <a href="http://cslt.riit.tsinghua.edu.cn/">CSLT, THU</a>.<br>
-    She will write a Chinese poem for you based on your name, age and gender.<br>
-    Scan the QR code below to have a try:<br>
-    </li>
-    <a href="img/vivi.jpg"><img src='img/vivi.jpg' width="150" height="150"></a>
-
-</ul>
-
 <hr>
 <a name="academic activities" class="disabled"><h2> Academic Activities </h2></a>
-
-<a name="news" class="disabled"><h3> News </h3></a>
-<ul>
-    <li>Joined UNC-CH as a new Ph.D. student, 2018.08.16</li>
-    <li>Offered by CS Ph.D. at UNC-CH, 2018.02.16 </li>
-    <li>Offered by CS Ph.D. at UMD, 2018.02.06 </li>
-    <li>Offered by CS Ph.D. at UMass Amherst, 2018.01.24 </li>
-</ul>
-
-<a name="talks" class="disabled"><h3> Talks </h3></a>
-
-<ul>
-    <li><b><a href="files/Memory-augmented Neural Machine Translation.pptx"> Presenting paper: Memory-augmented Chinese-Uyghur Neural Machine Translation </a></b>, APSIPA 2017, Kuala Lumpur, Malaysia</li>
-    <li><b>Presenting paper: Flexible and Creative Chinese Poetry Generation Using Neural Memory</b>, ACL 2017, Vancouver, Canada</li>
-</ul>
 
 
 <a name="awards" class="disabled"><h3> Awards </h3></a>
@@ -365,6 +348,7 @@
 <b> I have been serving as</b> :
 
 <ul>
+    <li>reviewer of ACL SRW 2020.</li>
     <li>reviewer of APSIPA ASC 2017.</li>
     <li>reviewer of NCMMSC 2017.</li>
 </ul>
@@ -382,7 +366,7 @@
 </ul>
 
 
-last updated: 2019/08/15
+last updated: 09/21/2020
 
 <ul>
     <a href="https://info.flagcounter.com/3P4w"><img src="https://s11.flagcounter.com/count2/3P4w/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
