@@ -1,10 +1,10 @@
 # Hello World!
 
-<img src="./img/shiyueatnaacl.jpeg" alt="drawing" width="400"/>
+<img src="./img/shiyueatnaacl.jpeg" alt="shiyueatnaacl" width="400"/>
 
-I am Shiyue Zhang (张诗悦). I have been working as a Research Engineer at [Bloomberg AI](https://www.bloomberg.com/company/values/tech-at-bloomberg/artificial-intelligence-ai/) since August 2023. 
+I am Shiyue Zhang (张诗悦). I have been a Research Engineer at [Bloomberg AI](https://www.bloomberg.com/company/values/tech-at-bloomberg/artificial-intelligence-ai/) since August 2023. 
 
-Before that, I was a Ph.D. student at UNC Chapel Hill advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/) and partially sponsored by [Bloomberg Data Science PhD Fellowship](https://www.bloomberg.com/company/stories/announcing-bloomberg-data-science-ph-d-fellowship-winners-2021-2022/).
+Previously, I was a Ph.D. student at UNC Chapel Hill, advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/) and partially sponsored by [Bloomberg Data Science PhD Fellowship](https://www.bloomberg.com/company/stories/announcing-bloomberg-data-science-ph-d-fellowship-winners-2021-2022/).
 
 ## Research
 I am interested in any fun topics related to language modeling. 
@@ -28,7 +28,7 @@ See the complete list of my publications at [Google Scholar](https://scholar.goo
 
 [Finding a Balanced Degree of Automation for Summary Evaluation](https://arxiv.org/abs/2109.11503), EMNLP 2021 <br> **Shiyue Zhang**, Mohit Bansal
 
-[ChrEn: Cherokee-English Machine Translation for Endangered Language Revitalization](hhttps://arxiv.org/abs/2010.04791), EMNLP 2020 <br> **Shiyue Zhang**, Benjamin Frey, Mohit Bansal
+[ChrEn: Cherokee-English Machine Translation for Endangered Language Revitalization](https://arxiv.org/abs/2010.04791), EMNLP 2020 <br> **Shiyue Zhang**, Benjamin Frey, Mohit Bansal
 
 [Addressing Semantic Drift in Question Generation for Semi-Supervised Question Answering](https://arxiv.org/abs/1909.06356), EMNLP 2019 <br> **Shiyue Zhang**, Mohit Bansal
 
