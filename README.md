@@ -9,7 +9,7 @@ Before that, I was a Ph.D. student at UNC Chapel Hill advised by Prof. [Mohit Ba
 ## Research
 I am interested in any fun topics related to language modeling. 
 
-See the complete list of my publications at [Google Scholar](https://scholar.google.com/citations?user=co9KUGQAAAAJ&hl=en) and my <a href="./files/Shiyue_Zhang_CV.pdf">CV</a>.
+See the complete list of my publications at [Google Scholar](https://scholar.google.com/citations?user=co9KUGQAAAAJ&hl=en) and my <a href="files/Shiyue_Zhang_CV.pdf">CV</a>.
 
 ## Selected Publications
 [RAG LLMs are Not Safer: A Safety Analysis of Retrieval-Augmented Generation for Large Language Models](https://arxiv.org/abs/2504.18041), NAACL 2025 <br> Bang An, **Shiyue Zhang**, Mark Dredze
