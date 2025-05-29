@@ -35,7 +35,7 @@ See the complete list of my publications at [Google Scholar](https://scholar.goo
 [Memory-augmented Chinese-Uyghur Neural Machine Translation](https://arxiv.org/abs/1706.08683), APSIPA 2017 <br> **Shiyue Zhang**, Gulnigar Mahmut, Dong Wang, Askar Hamdulla
 
 ## Selected Preprints
-[Evaluating the Retrieval Robustness of Large Language Models](), 2025 <br> Shuyang Cao, Karthik Radhakrishnan, David Rosenberg, Steven Lu, Pengxiang Cheng, Lu Wang, **Shiyue
+[Evaluating the Retrieval Robustness of Large Language Models](https://arxiv.org/pdf/2505.21870), 2025 <br> Shuyang Cao, Karthik Radhakrishnan, David Rosenberg, Steven Lu, Pengxiang Cheng, Lu Wang, **Shiyue
 Zhang**
 
 [Improving Instruct Models for Free: A Study on Partial Adaptation](https://arxiv.org/abs/2504.11626), 2025 <br> Ozan İrsoy*, Pengxiang Cheng*, Jennifer L. Chen*, Daniel Preoţiuc-Pietro*, **Shiyue Zhang**\*, Duccio Pappadopulo* (*author ordering chosen at random)
