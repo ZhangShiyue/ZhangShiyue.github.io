@@ -1,1 +1,3 @@
 - [Read Me](README.md)
+- Blog
+  - [Approximating KL](blog/KL.md)
