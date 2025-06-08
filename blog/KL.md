@@ -1,4 +1,4 @@
-*written on 06/09/2025* 
+*written on 06/08/2025* 
 
 I was looking at the [KL estimation implemented by TRL](https://github.com/huggingface/trl/blob/main/trl/trainer/ppo_trainer.py#L510}) lately. 
 It puzzles me because it does **not** seem to implement the *k3* estimation from [John Schulman's blog](http://joschu.net/blog/kl-approx.html).
