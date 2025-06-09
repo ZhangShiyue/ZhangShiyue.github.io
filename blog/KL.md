@@ -54,11 +54,11 @@ $$
 
 which is not equivalent to Eq.1. And this estimation is *biased* because:
 $$
-\mathbb{E}_{x \sim q}\sum_i [\frac{p(x_i|x_{<i})}{q(x_i|x_{<i})} - 1] = \sum_x \prod_i q(x_i|x_{<i}) [\frac{p(x_i|x_{<i})}{q(x_i|x_{<i})} - 1] \neq 0
+\mathbb{E}_{x \sim q}\{\sum_i [\frac{p(x_i|x_{<i})}{q(x_i|x_{<i})} - 1]\} = \sum_x \{ \prod_i q(x_i|x_{<i}) \sum_i [\frac{p(x_i|x_{<i})}{q(x_i|x_{<i})} - 1] \} \neq 0
 $$
 
 Nonetheless, I would not say Eq.2 is wrong. Eq.2 is nicely **non-negative**. And being **biased** is not necessarily bad. As mentioned in John Schulman's blog, they also sometimes use another estimator (numbered as *k2*) which is biased but **non-negative**. 
 
-Sometimes I feel the notion of estimating KL divergence is "fake". Why it has to be KL divergence? What is so special of KL that makes us use it in various RL algorithms? I feel like it just needs to be some kind of divergence between two distributions. 
+Sometimes I also feel puzzled by the notion of estimating KL divergence. Why it has to be KL divergence? What is so special of KL that makes us use it in various RL algorithms? I feel like it just needs to be some kind of divergence between two distributions. 
 Maybe there are some more fundamental reasons that I don't yet grasp on.  
 
