@@ -2,7 +2,7 @@
 
 <img src="./img/shiyueatnaacl.jpeg" alt="shiyueatnaacl" width="400"/>
 
-I am Shiyue Zhang (张诗悦). I have been a Research Engineer at [Bloomberg AI](https://www.bloomberg.com/company/values/tech-at-bloomberg/artificial-intelligence-ai/) since August 2023. 
+I am Shiyue Zhang (张诗悦). I have been a Research Scientist/Engineer at [Bloomberg AI](https://www.bloomberg.com/company/values/tech-at-bloomberg/artificial-intelligence-ai/) since August 2023. 
 
 Previously, I was a Ph.D. student at UNC Chapel Hill, advised by Prof. [Mohit Bansal](https://www.cs.unc.edu/~mbansal/) and partially sponsored by [Bloomberg Data Science PhD Fellowship](https://www.bloomberg.com/company/stories/announcing-bloomberg-data-science-ph-d-fellowship-winners-2021-2022/).
 
@@ -46,9 +46,9 @@ Zhang**
 ## Education
 Aug. 2018 - Aug. 2023: Ph.D. in Computer Science, University of North Carolina (UNC) at Chapel Hill, USA, 
 
-Sep. 2015 - March 2018: Master in Information and Communication Engineering, Beijing University of Posts and Telecommunications (BUPT), China
+Sep. 2015 - March 2018: Masters in Information and Communication Engineering, Beijing University of Posts and Telecommunications (BUPT), China
 
-Sep. 2011 - July 2015:  Bachelor in Communication Engineering, Beijing University of Posts and Telecommunications (BUPT), China
+Sep. 2011 - July 2015:  Bachelors in Communication Engineering, Beijing University of Posts and Telecommunications (BUPT), China
 
 ## Work Experience
 May 2022 – Aug. 2022: Software Engineer Intern, Bloomberg
