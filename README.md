@@ -62,3 +62,7 @@ Sep. 2016 – June 2018: Research Intern, Center for Speech and Language Technol
 ## Contact
 
 I am based in NYC. Contact me via byryuer@gmail.com.
+
+## Miscellaneous
+
+I like to write non-technical blogs occasionally and will post them on [matters.town/@yuerrrr](https://matters.town/@yuerrrr). 
