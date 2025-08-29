@@ -12,6 +12,10 @@ I am interested in any fun topics related to language modeling.
 See the complete list of my publications at [Google Scholar](https://scholar.google.com/citations?user=co9KUGQAAAAJ&hl=en) and my <a href="files/Shiyue_Zhang_CV.pdf">CV</a>.
 
 ## Selected Publications
+[Improving Instruct Models for Free: A Study on Partial Adaptation](https://arxiv.org/abs/2504.11626), EMNLP 2025 <br> Ozan İrsoy*, Pengxiang Cheng*, Jennifer L. Chen*, Daniel Preoţiuc-Pietro*, **Shiyue Zhang**\*, Duccio Pappadopulo* (*author ordering chosen at random)
+
+[Localizing Factual Inconsistencies in Attributable Text Generation](https://arxiv.org/abs/2410.07473), TACL 2025 <br> Arie Cattan, Paul Roit, **Shiyue Zhang**, David Wan, Roee Aharoni, Idan Szpektor, Mohit Bansal, Ido Dagan
+
 [QAPyramid: Fine-grained Evaluation of Content Selection for Text Summarization](https://arxiv.org/abs/2412.07096), COLM 2025 <br> **Shiyue Zhang**\*, David Wan*, Arie Cattan, Ayal Klein, Ido Dagan, Mohit Bansal (*equal contribution)
 
 [RAG LLMs are Not Safer: A Safety Analysis of Retrieval-Augmented Generation for Large Language Models](https://arxiv.org/abs/2504.18041), NAACL 2025 <br> Bang An, **Shiyue Zhang**, Mark Dredze
@@ -40,9 +44,6 @@ See the complete list of my publications at [Google Scholar](https://scholar.goo
 [Evaluating the Retrieval Robustness of Large Language Models](https://arxiv.org/pdf/2505.21870), 2025 <br> Shuyang Cao, Karthik Radhakrishnan, David Rosenberg, Steven Lu, Pengxiang Cheng, Lu Wang, **Shiyue
 Zhang**
 
-[Improving Instruct Models for Free: A Study on Partial Adaptation](https://arxiv.org/abs/2504.11626), 2025 <br> Ozan İrsoy*, Pengxiang Cheng*, Jennifer L. Chen*, Daniel Preoţiuc-Pietro*, **Shiyue Zhang**\*, Duccio Pappadopulo* (*author ordering chosen at random)
-
-[Localizing Factual Inconsistencies in Attributable Text Generation](https://arxiv.org/abs/2410.07473), 2024 <br> Arie Cattan, Paul Roit, **Shiyue Zhang**, David Wan, Roee Aharoni, Idan Szpektor, Mohit Bansal, Ido Dagan
 ## Education
 Aug. 2018 - Aug. 2023: Ph.D. in Computer Science, University of North Carolina (UNC) at Chapel Hill, USA, 
 
