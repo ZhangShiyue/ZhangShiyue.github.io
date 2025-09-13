@@ -11,7 +11,10 @@ I am interested in any fun topics related to language modeling.
 
 See the complete list of my publications at [Google Scholar](https://scholar.google.com/citations?user=co9KUGQAAAAJ&hl=en) and my <a href="files/Shiyue_Zhang_CV.pdf">CV</a>.
 
-## Selected Publications
+## Recent Publications
+[Evaluating the Retrieval Robustness of Large Language Models](https://arxiv.org/pdf/2505.21870), 2025 <br> Shuyang Cao, Karthik Radhakrishnan, David Rosenberg, Steven Lu, Pengxiang Cheng, Lu Wang, **Shiyue
+Zhang**
+
 [Improving Instruct Models for Free: A Study on Partial Adaptation](https://arxiv.org/abs/2504.11626), EMNLP 2025 <br> Ozan İrsoy*, Pengxiang Cheng*, Jennifer L. Chen*, Daniel Preoţiuc-Pietro*, **Shiyue Zhang**\*, Duccio Pappadopulo* (*author ordering chosen at random)
 
 [Localizing Factual Inconsistencies in Attributable Text Generation](https://arxiv.org/abs/2410.07473), TACL 2025 <br> Arie Cattan, Paul Roit, **Shiyue Zhang**, David Wan, Roee Aharoni, Idan Szpektor, Mohit Bansal, Ido Dagan
@@ -28,21 +31,6 @@ See the complete list of my publications at [Google Scholar](https://scholar.goo
 
 [HistAlign: Improving Context Dependency in Language Generation by Aligning with History](https://arxiv.org/abs/2305.04782), EMNLP 2023 <br> David Wan, **Shiyue Zhang**, Mohit Bansal
 
-[Summarization Programs: Interpretable Abstractive Summarization with Neural Modular Trees](https://arxiv.org/abs/2209.10492), ICLR 2023 <br> Swarnadeep Saha, **Shiyue Zhang**, Peter Hase, Mohit Bansal
-
-[How Robust is Neural Machine Translation to Language Imbalance in Multilingual Tokenizer Training?](https://arxiv.org/abs/2204.14268), AMTA 2022 <br> **Shiyue Zhang**, Vishrav Chaudhary, Naman Goyal, James Cross, Guillaume Wenzek, Mohit Bansal, Francisco Guzman
-
-[Finding a Balanced Degree of Automation for Summary Evaluation](https://arxiv.org/abs/2109.11503), EMNLP 2021 <br> **Shiyue Zhang**, Mohit Bansal
-
-[ChrEn: Cherokee-English Machine Translation for Endangered Language Revitalization](https://arxiv.org/abs/2010.04791), EMNLP 2020 <br> **Shiyue Zhang**, Benjamin Frey, Mohit Bansal
-
-[Addressing Semantic Drift in Question Generation for Semi-Supervised Question Answering](https://arxiv.org/abs/1909.06356), EMNLP 2019 <br> **Shiyue Zhang**, Mohit Bansal
-
-[Memory-augmented Chinese-Uyghur Neural Machine Translation](https://arxiv.org/abs/1706.08683), APSIPA 2017 <br> **Shiyue Zhang**, Gulnigar Mahmut, Dong Wang, Askar Hamdulla
-
-## Selected Preprints
-[Evaluating the Retrieval Robustness of Large Language Models](https://arxiv.org/pdf/2505.21870), 2025 <br> Shuyang Cao, Karthik Radhakrishnan, David Rosenberg, Steven Lu, Pengxiang Cheng, Lu Wang, **Shiyue
-Zhang**
 
 ## Education
 Aug. 2018 - Aug. 2023: Ph.D. in Computer Science, University of North Carolina (UNC) at Chapel Hill, USA, 
