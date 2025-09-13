@@ -40,6 +40,8 @@ Sep. 2015 - March 2018: Masters in Information and Communication Engineering, Be
 Sep. 2011 - July 2015:  Bachelors in Communication Engineering, Beijing University of Posts and Telecommunications (BUPT), China
 
 ## Work Experience
+Aug 2023 – Present: Research Engineer, Bloomberg
+
 May 2022 – Aug. 2022: Software Engineer Intern, Bloomberg
 
 May 2021 – Aug. 2021: Research Intern, Facebook AI
